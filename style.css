@@ -1,0 +1,246 @@
+#header-card-image {
+  float: right;
+  margin: -33px 0px 0px 12px;
+}
+
+ul li a {
+  color: #315177;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.shadow-effect3 ul li a {
+  color: #8f9fa4;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.shadow-effect3 .active {
+  color: red;
+}
+
+#news_card {
+  height: 596px;
+  margin-top: 43px;
+  margin-left: 48px;
+}
+
+#content {
+  color: #627281;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#content-news {
+  color: #000000;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 12px;
+}
+
+.shadow-effect {
+  box-shadow: 0px -3px 14px rgba(0, 0, 0, 0.1);
+  margin-top: 13px;
+}
+
+.shadow-effect2 {
+  box-shadow: 0px -2px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 37px;
+}
+
+.shadow-effect3 {
+  box-shadow: 0px -2px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 37px;
+}
+
+.margin-top {
+  margin-top: 39px;
+}
+
+.margin-top1 {
+  margin-top: 25px;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+#news1 {
+  margin-left: -15px;
+  position: relative;
+}
+
+#strike {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#strike2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 32px;
+}
+
+#fb {
+  margin: 9px 0px 0px -4px;
+}
+
+.social-margin {
+  margin: 41px 0px 0px -39px;
+}
+
+.social-margin2 {
+  margin: 9px 0px 0px -39px;
+}
+
+.block-border {
+  border: 1px solid #f7f7f7;
+  border-radius: 6px;
+  height: 49px;
+  margin-left: 12px;
+  width: 156px;
+}
+
+.footer-menu {
+  background-color: #f7f7f7;
+  margin-left: 167px;
+  margin-top: -38px;
+  width: 583px;
+}
+
+#block1 {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: -121px;
+  width: 314px;
+}
+
+#block2 {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  height: 100px;
+  margin-left: -22px;
+  margin-top: -62px;
+  width: 314px;
+}
+
+.active {
+  color: #ff0000;
+}
+
+#news2 {
+  margin-left: -6px;
+}
+
+.shadow-effect1 {
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.side-images {
+  margin-bottom: 12px;
+}
+
+.shadow-effect button {
+  background-color: #ff0000;
+  border-radius: 4px;
+  border: 1px;
+  margin: 26px 0px 0px 0px;
+}
+
+button span {
+  color: #ffffff;
+  font-size: 28px;
+  padding: 22px;
+}
+
+#trending-bottom1 {
+  margin-left: -15px;
+}
+
+#trending-bottom2 {
+  margin-left: -8px;
+}
+
+.bg-overlay {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("img/trending/trending_top.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 375px;
+  width: 100%
+}
+
+.text-center button {
+  background-color: #fff9c6;
+  border-radius: 4px;
+  border: 1px;
+  color: #000000;
+  margin: 220px 0px 0px 19px;
+  s
+}
+
+.text-center span {
+  color: #000000;
+  font-size: 24px;
+  padding: 22px;
+}
+
+.text-center p {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 19px;
+}
+
+#concert {
+  background-color: #fBE7E6;
+  border-radius: 1px;
+  border: 1px;
+  margin: 26px 0px 0px 10px;
+}
+
+#concert2 {
+  background-color: #fBE7E6;
+  border-radius: 1px;
+  border: 1px;
+  font-weight: bold;
+  margin: 26px 0px 0px 28px;
+}
+
+#seabeach {
+  background-color: #e1fcfe;
+  border-radius: 1px;
+  border: 1px;
+  margin: 26px 0px 0px 10px;
+}
+
+#bikeshow {
+  background-color: #f4fcd5;
+  border-radius: 1px;
+  border: 1px;
+  margin: 26px 0px 0px 10px;
+}
+
+#concert+div {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#seabeach+div {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#bikeshow+div {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
