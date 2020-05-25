@@ -15,7 +15,7 @@ ul li a {
   font-weight: bold;
 }
 
-.shadow-effect3 .active {
+.shadow-effect3 ul li:hover a {
   color: red;
 }
 
@@ -53,7 +53,7 @@ ul li a {
   margin-top: 37px;
 }
 
-.margin-top {
+.margin-up {
   margin-top: 39px;
 }
 
@@ -93,12 +93,26 @@ ul li a {
   margin: 9px 0px 0px -39px;
 }
 
+#night-party {
+  margin-left: -6px;
+}
+
+#night {
+  margin-top: 94px;
+}
+
 .block-border {
   border: 1px solid #f7f7f7;
   border-radius: 6px;
   height: 49px;
   margin-left: 12px;
   width: 156px;
+}
+
+.block-border div {
+  margin: -34px 0px 0px 36px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .footer-menu {
@@ -108,25 +122,35 @@ ul li a {
   width: 583px;
 }
 
-#block1 {
-  position: absolute;
+.image div {
   background-color: #ffffff;
   border-radius: 12px;
   border: 1px solid #ffffff;
   height: 100px;
   margin-left: 15px;
   margin-top: -121px;
+  position: absolute;
   width: 314px;
+  opacity: 0;
 }
 
-#block2 {
-  position: absolute;
+.image:hover {
+  cursor: pointer;
+}
+
+.image:hover div {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+#block-on-hover {
   background-color: #ffffff;
   border-radius: 12px;
   border: 1px solid #ffffff;
   height: 100px;
   margin-left: -22px;
   margin-top: -62px;
+  position: absolute;
   width: 314px;
 }
 
@@ -177,22 +201,21 @@ button span {
   width: 100%
 }
 
-.text-center button {
+.text-up button {
   background-color: #fff9c6;
   border-radius: 4px;
   border: 1px;
   color: #000000;
   margin: 220px 0px 0px 19px;
-  s
 }
 
-.text-center span {
+.text-up span {
   color: #000000;
   font-size: 24px;
   padding: 22px;
 }
 
-.text-center p {
+.text-up p {
   font-size: 35px;
   font-weight: bold;
   margin-left: 19px;
@@ -202,10 +225,17 @@ button span {
   background-color: #fBE7E6;
   border-radius: 1px;
   border: 1px;
+  margin: 0px 0px 0px 10px;
+}
+
+#button-lifestyle {
+  background-color: #fBE7E6;
+  border-radius: 1px;
+  border: 1px;
   margin: 26px 0px 0px 10px;
 }
 
-#concert2 {
+#button-concert {
   background-color: #fBE7E6;
   border-radius: 1px;
   border: 1px;
@@ -217,30 +247,47 @@ button span {
   background-color: #e1fcfe;
   border-radius: 1px;
   border: 1px;
-  margin: 26px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 #bikeshow {
   background-color: #f4fcd5;
   border-radius: 1px;
   border: 1px;
-  margin: 26px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 #concert+div {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 19px;
   margin-left: 10px;
+  font-size: 14px;
+}
+
+#button-lifestyle+div {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 19px;
+}
+
+#button-lifestyle+p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 19px;
 }
 
 #seabeach+div {
   font-weight: bold;
-  margin-top: 10px;
+  font-size: 14px;
+  margin-top: 19px;
   margin-left: 10px;
 }
 
 #bikeshow+div {
   font-weight: bold;
-  margin-top: 10px;
+  font-size: 14px;
+  margin-top: 19px;
   margin-left: 10px;
 }
